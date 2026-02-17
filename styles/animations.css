@@ -16,6 +16,10 @@
 	transform-origin: center;
 }
 
+.heart {
+	transform-origin: center center;
+}
+
 /* Состояние по умолчанию */
 
 .contour {
