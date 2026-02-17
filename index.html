@@ -4,6 +4,22 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Закрывающий тег</title>
+		<link
+			rel="icon"
+			type="image/png"
+			href="/images/favicon-96x96.png"
+			sizes="96x96"
+		/>
+		<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+		<link rel="shortcut icon" href="/images/favicon.ico" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="/images/apple-touch-icon.png"
+		/>
+		<meta name="apple-mobile-web-app-title" content="MyWebSite" />
+		<link rel="manifest" href="/site.webmanifest" />
+
 		<link rel="stylesheet" href="./fonts/fonts.css" />
 		<link rel="stylesheet" href="./styles/variables.css" />
 		<link rel="stylesheet" href="./styles/globals.css" />
@@ -12,24 +28,22 @@
 	</head>
 	<body class="page">
 		<header class="header">
-			<div class="header__container">
-				<h1 class="header__title">&lt;/HTML&gt;</h1>
-				<h2 class="header__subtitle">закрывающий тег</h2>
-			</div>
+			<a class="header__title" href="#">&lt;/HTML&gt;</a>
+			<h2 class="header__subtitle">закрывающий тег</h2>
 		</header>
 		<main class="content">
-			<ul class="card__lists">
-				<li>
 					<article class="card__content">
-						<label class="card__title">
+						<h3 class="card__title">
 							Фритрек и нулевой спринт: Подготовка к работе
-						</label>
-						<picture class="card__image card__image--brightness">
+						</h3>
+						<figure class="card__image card__image--brightness">
 							<img
+								loading="lazy"
 								src="./images/card-image.png"
 								alt="Подготовка к работе — начало пути"
 							/>
-						</picture>
+						<figcaption class="card__image-label">&lt;/HTML&gt;</figcaption>
+						</figure>
 						<div class="card__text-block">
 							<div class="card__text">
 								<p>
@@ -40,7 +54,7 @@
 								<p>Место для ваших воспоминаний о начале обучения.</p>
 							</div>
 							<div class="card__buttons">
-								<button class="card__icon-button">
+								<button type="button" class="card__icon-button" aria-label="Лайк">
 									<svg
 										class="like-icon"
 										width="39"
@@ -73,22 +87,22 @@
 										/>
 									</svg>
 								</button>
-								<button class="card__like-button">
+								<button type="button" class="card__like-button button">
 									<span class="button__text">Like</span>
 								</button>
 							</div>
 						</div>
 					</article>
-				</li>
-				<li>
 					<article class="card__content">
-						<label class="card__title">1 спринт: Я — чистый лист</label>
-						<picture class="card__image card__image--grayscale">
+						<h3 class="card__title">1 спринт: Я — чистый лист</h3>
+						<figure class="card__image card__image--grayscale">
 							<img
+								loading="lazy"
 								src="./images/card-image.png"
 								alt="Первый спринт — чистый лист"
 							/>
-						</picture>
+						<figcaption class="card__image-label">&lt;/HTML&gt;</figcaption>
+						</figure>
 
 						<div class="card__text-block">
 							<div class="card__text">
@@ -103,7 +117,7 @@
 								<p>Место для ваших воспоминаний о начале первого спринта.</p>
 							</div>
 							<div class="card__buttons">
-								<button class="card__icon-button">
+								<button type="button" class="card__icon-button" aria-label="Лайк">
 									<svg
 										class="like-icon"
 										width="39"
@@ -136,22 +150,22 @@
 										/>
 									</svg>
 								</button>
-								<button class="card__like-button">
+								<button type="button" class="card__like-button button">
 									<span class="button__text">Like</span>
 								</button>
 							</div>
 						</div>
 					</article>
-				</li>
-				<li>
 					<article class="card__content">
-						<label class="card__title">1 спринт: А если не получится?</label>
-						<picture class="card__image card__image--saturate">
+						<h3 class="card__title">1 спринт: А если не получится?</h3>
+						<figure class="card__image card__image--saturate">
 							<img
+								loading="lazy"
 								src="./images/card-image.png"
 								alt="Первый спринт — а если не получится"
 							/>
-						</picture>
+						<figcaption class="card__image-label">&lt;/HTML&gt;</figcaption>
+						</figure>
 
 						<div class="card__text-block">
 							<div class="card__text">
@@ -166,7 +180,7 @@
 								</p>
 							</div>
 							<div class="card__buttons">
-								<button class="card__icon-button">
+								<button type="button" class="card__icon-button" aria-label="Лайк">
 									<svg
 										class="like-icon"
 										width="39"
@@ -199,22 +213,22 @@
 										/>
 									</svg>
 								</button>
-								<button class="card__like-button">
+								<button type="button" class="card__like-button button">
 									<span class="button__text">Like</span>
 								</button>
 							</div>
 						</div>
 					</article>
-				</li>
-				<li>
 					<article class="card__content">
-						<label class="card__title">2 спринт: Погоня за идеалом</label>
-						<picture class="card__image card__image--hue-rotate">
+						<h3 class="card__title">2 спринт: Погоня за идеалом</h3>
+						<figure class="card__image card__image--hue-rotate">
 							<img
+								loading="lazy"
 								src="./images/card-image.png"
 								alt="Второй спринт — погоня за идеалом"
 							/>
-						</picture>
+						<figcaption class="card__image-label">&lt;/HTML&gt;</figcaption>
+						</figure>
 
 						<div class="card__text-block">
 							<div class="card__text">
@@ -228,7 +242,7 @@
 								<p>Место для ваших воспоминаний о начале второго спринта.</p>
 							</div>
 							<div class="card__buttons">
-								<button class="card__icon-button">
+								<button type="button" class="card__icon-button" aria-label="Лайк">
 									<svg
 										class="like-icon"
 										width="39"
@@ -261,22 +275,22 @@
 										/>
 									</svg>
 								</button>
-								<button class="card__like-button">
+								<button type="button" class="card__like-button button">
 									<span class="button__text">Like</span>
 								</button>
 							</div>
 						</div>
 					</article>
-				</li>
-				<li>
 					<article class="card__content">
-						<label class="card__title">2 спринт: О тех, кто рядом</label>
-						<picture class="card__image card__image--invert">
+						<h3 class="card__title">2 спринт: О тех, кто рядом</h3>
+						<figure class="card__image card__image--invert">
 							<img
+								loading="lazy"
 								src="./images/card-image.png"
 								alt="Второй спринт — о тех, кто рядом"
 							/>
-						</picture>
+						<figcaption class="card__image-label">&lt;/HTML&gt;</figcaption>
+						</figure>
 
 						<div class="card__text-block">
 							<div class="card__text">
@@ -293,7 +307,7 @@
 								</p>
 							</div>
 							<div class="card__buttons">
-								<button class="card__icon-button">
+								<button type="button" class="card__icon-button" aria-label="Лайк">
 									<svg
 										class="like-icon"
 										width="39"
@@ -326,22 +340,22 @@
 										/>
 									</svg>
 								</button>
-								<button class="card__like-button">
+								<button type="button" class="card__like-button button">
 									<span class="button__text">Like</span>
 								</button>
 							</div>
 						</div>
 					</article>
-				</li>
-				<li>
 					<article class="card__content">
-						<label class="card__title">3 спринт: Обходные стратегии</label>
-						<picture class="card__image card__image--sepia">
+						<h3 class="card__title">3 спринт: Обходные стратегии</h3>
+						<figure class="card__image card__image--sepia">
 							<img
+								loading="lazy"
 								src="./images/card-image.png"
 								alt="Третий спринт — обходные стратегии"
 							/>
-						</picture>
+						<figcaption class="card__image-label">&lt;/HTML&gt;</figcaption>
+						</figure>
 
 						<div class="card__text-block">
 							<div class="card__text">
@@ -353,7 +367,7 @@
 								<p>Место для ваших воспоминаний о начале третьего спринта.</p>
 							</div>
 							<div class="card__buttons">
-								<button class="card__icon-button">
+								<button type="button" class="card__icon-button" aria-label="Лайк">
 									<svg
 										class="like-icon"
 										width="39"
@@ -386,22 +400,22 @@
 										/>
 									</svg>
 								</button>
-								<button class="card__like-button">
+								<button type="button" class="card__like-button button">
 									<span class="button__text">Like</span>
 								</button>
 							</div>
 						</div>
 					</article>
-				</li>
-				<li>
 					<article class="card__content">
-						<label class="card__title">3 спринт: Когда опускаются руки</label>
-						<picture class="card__image card__image--blur">
+						<h3 class="card__title">3 спринт: Когда опускаются руки</h3>
+						<figure class="card__image card__image--blur">
 							<img
+								loading="lazy"
 								src="./images/card-image.png"
 								alt="Третий спринт — когда опускаются руки"
 							/>
-						</picture>
+						<figcaption class="card__image-label">&lt;/HTML&gt;</figcaption>
+						</figure>
 
 						<div class="card__text-block">
 							<div class="card__text">
@@ -417,7 +431,7 @@
 								</p>
 							</div>
 							<div class="card__buttons">
-								<button class="card__icon-button">
+								<button type="button" class="card__icon-button" aria-label="Лайк">
 									<svg
 										class="like-icon"
 										width="39"
@@ -450,22 +464,22 @@
 										/>
 									</svg>
 								</button>
-								<button class="card__like-button">
+								<button type="button" class="card__like-button button">
 									<span class="button__text">Like</span>
 								</button>
 							</div>
 						</div>
 					</article>
-				</li>
-				<li>
 					<article class="card__content">
-						<label class="card__title">«Сейчас я здесь»</label>
-						<picture class="card__image card__image--hue-opacity">
+						<h3 class="card__title">«Сейчас я здесь»</h3>
+						<figure class="card__image card__image--hue-opacity">
 							<img
+								loading="lazy"
 								src="./images/card-image.png"
 								alt="Сейчас я здесь — текущий момент пути"
 							/>
-						</picture>
+						<figcaption class="card__image-label">&lt;/HTML&gt;</figcaption>
+						</figure>
 
 						<div class="card__text-block">
 							<div class="card__text">
@@ -484,7 +498,7 @@
 								</p>
 							</div>
 							<div class="card__buttons">
-								<button class="card__icon-button">
+								<button type="button" class="card__icon-button" aria-label="Лайк">
 									<svg
 										class="like-icon"
 										width="39"
@@ -517,15 +531,13 @@
 										/>
 									</svg>
 								</button>
-								<button class="card__like-button">
+								<button type="button" class="card__like-button button">
 									<span class="button__text">Like</span>
 								</button>
 							</div>
 						</div>
 					</article>
-				</li>
-			</ul>
-			<button class="save__button" id="save-button">
+			<button type="button" class="save__button button" id="save-button">
 				<svg
 					class="save__icon"
 					width="21"
@@ -545,7 +557,7 @@
 					<use href="./svg/floppy.svg#floppy"></use>
 				</svg>
 				<p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
-				<button class="dialog__button" type="submit">
+				<button class="dialog__button button" type="submit">
 					<span class="button__text">OK</span>
 				</button>
 			</form>
