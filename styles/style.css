@@ -109,7 +109,7 @@
 	inset-inline-end: 26px;
 	z-index: 1;
 
-	font-family: 'PressStart2P-Regular', sans-serif;
+	font-family: 'PressStart2P', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 
@@ -246,7 +246,7 @@
 }
 
 .button:focus-visible {
-	box-shadow: 2px 2px 0 var(--accent-color);
+	box-shadow: 5px 5px 0 var(--accent-color);
 }
 
 .button::before {

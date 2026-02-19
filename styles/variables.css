@@ -9,8 +9,10 @@
 	--button-text-color: #fff;
 	--contour-color: #000;
 	--animation-fill-color: red;
+	--animation-hover-fill-color: #000;
 
-	--bg-image: repeating-linear-gradient(
+	--bg-image:
+		repeating-linear-gradient(
 			to right,
 			#d3d3d3,
 			#d3d3d3 2px,
